@@ -1,0 +1,5 @@
+{
+  "name": "Tech Gear Customer Support Bot",
+  "description": "An AI-powered customer support assistant for Tech Gear e-commerce, capable of tracking orders, providing product recommendations, and answering policy questions.",
+  "requestFramePermissions": []
+}
