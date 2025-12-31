@@ -41,7 +41,7 @@ const searchProductsTool: FunctionDeclaration = {
   },
 };
 
-// 2. Initialize API / Chat Session
+// 2. Initialize Chat: Get Gemini + System Rules + Tools
 let chatSession: Chat | null = null;
 
 export const initializeChat = async () => {

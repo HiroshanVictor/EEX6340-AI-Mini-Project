@@ -79,7 +79,7 @@ export const MOCK_PRODUCTS: Product[] = [
     name: 'ErgoType Silent Keyboard',
     category: 'Keyboard',
     tags: ['office', 'ergonomic'],
-    price: 24000,
+    price: 2500,
   },
   {
     id: 'P-005',
