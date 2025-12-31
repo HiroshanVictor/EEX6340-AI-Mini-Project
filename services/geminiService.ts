@@ -41,7 +41,7 @@ const searchProductsTool: FunctionDeclaration = {
   },
 };
 
-// 2. Initialize API
+// 2. Initialize API / Chat Session
 let chatSession: Chat | null = null;
 
 export const initializeChat = async () => {

@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid'; // Since we can't use real npm, we will moc
 
 // Helper for simple unique IDs without external lib
 const generateId = () => Math.random().toString(36).substr(2, 9);
-
+// Initializes chat session
 const App: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
